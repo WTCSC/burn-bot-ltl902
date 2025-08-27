@@ -1,6 +1,6 @@
 import time
 
-name= input("What is your name? ")
+name= input("What is your name?\n")
 if name == "Burn Bot":
     print("Fatal Error Detected: More than one Burn Bot detected")
     print("BurnBot.exe has crashed")
@@ -8,11 +8,11 @@ if name == "Burn Bot":
     print("why are you still here\nget a life")
     print("BurnBot.exe is still crashed")
     time.sleep(15)
-    print("okay fine i didnt really crash")
+    print("okay fine i did'nt really crash")
     print("since you waited sooooo long i guess ill burn you")
-    name1= input("give me your real name ")
-    age = int(input("How old are you? "))
-    height= input("How tall are you? ")
+    name1= input("give me your real name\n")
+    age = int(input("How old are you?\n"))
+    height= input("How tall are you?\n")
     print("Welcome", name1)
     print("Hello",name1,"you are",age,"years old and",height,"tall")
     print("generating burn")
@@ -25,8 +25,8 @@ if name == "Burn Bot":
     time.sleep(1)
     print("burn generated")
 else:
-    age = int(input("How old are you? "))
-    height= input("How tall are you? ")
+    age = int(input("How old are you?\n"))
+    height= input("How tall are you?\n")
     print("Welcome",name,"to the Burn Bot")
     print("Hello",name,"you are",age,"years old and",height,"tall")
     print("generating burn")
