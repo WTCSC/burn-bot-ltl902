@@ -2,7 +2,7 @@ import time
 
 name= input("What is your name? ")
 if name == "Burn Bot":
-    print("Fatal Error Dectected: More than one Burn Bot detected")
+    print("Fatal Error Detected: More than one Burn Bot detected")
     print("BurnBot.exe has crashed")
     exit()
 else:
@@ -29,4 +29,4 @@ if height <= "5'4":
     print("you cant even use the weather app because it take rain 3 to 5 business days to reach you")
 elif height > "5'4":
     print("you cant even use the weather app because you are above the clouds")
-
+    #a
